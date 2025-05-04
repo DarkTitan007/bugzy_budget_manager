@@ -1,0 +1,48 @@
+{
+    "project_info": {
+      "project_number": "224656293269",
+      "project_id": "bugzy-smartbudgetmanager",
+      "storage_bucket": "bugzy-smartbudgetmanager.firebasestorage.app"
+    },
+    "client": [
+      {
+        "client_info": {
+          "mobilesdk_app_id": "1:224656293269:android:200b0e361b0f6557304a9c",
+          "android_client_info": {
+            "package_name": "com.example.bugzy_budget_manager"
+          }
+        },
+        "oauth_client": [
+          {
+            "client_id": "224656293269-9nvhmvjvalcoo7lfslutl6gnfaqt4vj0.apps.googleusercontent.com",
+            "client_type": 1,
+            "android_info": {
+              "package_name": "com.example.bugzy_budget_manager",
+              "certificate_hash": "7194c8dce3875be9be2bbc4b6674bfaba3fb5db1"
+            }
+          },
+          {
+            "client_id": "224656293269-itink8glnbn7vk2p3g7pcb4t3jf06gnu.apps.googleusercontent.com",
+            "client_type": 3
+          }
+        ],
+        "api_key": [
+          {
+            "current_key": "AIzaSyCHCdeJttIOm3IFjICXrHvFLAiyLi4Ne24"
+          }
+        ],
+        "services": {
+          "appinvite_service": {
+            "other_platform_oauth_client": [
+              {
+                "client_id": "224656293269-itink8glnbn7vk2p3g7pcb4t3jf06gnu.apps.googleusercontent.com",
+                "client_type": 3
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "configuration_version": "1"
+  }
+  
