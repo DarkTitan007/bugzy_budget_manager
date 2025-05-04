@@ -1,16 +1,39 @@
-# bugzy_budget_manager
+💰 Smart Budget Manager (Flutter + Firebase)
+A personal finance management app built with Flutter, Firebase, and modern UI widgets. Easily track income, expenses, and budget insights using charts and gauges.
 
-A new Flutter project.
 
-## Getting Started
+✨ Features
+🔐 Google Sign-In with Firebase Authentication
 
-This project is a starting point for a Flutter application.
+☁️ Firestore Cloud Database for transactions
 
-A few resources to get you started if this is your first Flutter project:
+📊 Income vs. Expense Pie Chart using fl_chart
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+🎯 Budget tracking with radial gauge using syncfusion_flutter_gauges
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+➕ Add and view transactions (sample data injection supported)
+
+🔁 Live sync across devices via Firebase
+
+📱 Responsive, Material Design UI
+
+
+
+| Framework                                | Plugin/Service                                                        |
+| ---------------------------------------- | --------------------------------------------------------------------- |
+| Flutter                                  | `firebase_core`, `firebase_auth`, `cloud_firestore`, `google_sign_in` |
+| Charts                                   | `fl_chart`, `syncfusion_flutter_gauges`                               |
+| State Management                         | `provider`                                                            |
+| Notifications & Local Storage (optional) | `flutter_local_notifications`, `hive`                                 |
+
+
+🧠 How It Works
+Users sign in via Google
+
+Transactions (income/expenses) are stored in Firestore
+
+Budget and expenses are visualized using charts/gauges
+
+Transactions can be added or viewed dynamically
+
+Local dummy data support for offline testing
